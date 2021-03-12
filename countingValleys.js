@@ -17,7 +17,7 @@ function countingValleys(steps, path) {
       seaLevel--;
     }
   });
-  console.log(valleyCount);
+  console.log(valleyCount, pathArr);
   return valleyCount;
 }
 
